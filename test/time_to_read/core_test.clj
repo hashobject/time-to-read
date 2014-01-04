@@ -37,8 +37,8 @@ The same principle work in Hacker School. Students constantly try to help each o
 
 (deftest estimate-for-text-test
   (testing "estimate should use 200 as wpm by default"
-    (is (= (estimate-for-text test-text) 5)))
+    (is (= (estimate-for-text test-text) 2)))
   (testing "estimate should work without rounding with normal case"
-    (is (= (estimate test-text 200) 5)))
+    (is (= (estimate-for-text test-text 100) 3)))
   (testing "estimate should work with ceiling with normal case"
-    (is (= (estimate test-text 200) 5))))
+    (is (= (estimate-for-text test-text 100) 3))))
