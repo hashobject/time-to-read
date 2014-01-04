@@ -8,7 +8,7 @@
 (defn estimate
   "Estimate time to read for given words count"
   ([wc]
-    (calculate wc 200))
+    (estimate wc 200))
   ([wc wpm]
     (int (Math/ceil (/ wc wpm)))))
 
