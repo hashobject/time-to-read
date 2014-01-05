@@ -13,8 +13,8 @@ time-to-read = word-count / words-per-minute
 ```
 where
 
-  word-count - number of words in the text
-  words-per-minute - speed of reading. Default is 200 words per minute. This is customizable.
+  * word-count - number of words in the text
+  * words-per-minute - speed of reading. Default is 200 words per minute. This is customizable.
 
 
 Output of this calculation is estimated number of minutes for reading of the text. Ceiling is used as rounding method.
