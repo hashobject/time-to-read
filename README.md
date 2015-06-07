@@ -37,11 +37,6 @@ user=> (estimate 900 200)
 4
 ```
 
-## Tips
-
-We recommend you to validate sitemap before submitting it to Google Webmaster tools.
-There are plenty of online validators. Maybe we will later add validation support to this library.
-
 ## Contributions
 
 We love contributions. Please submit your pull requests.
