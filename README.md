@@ -3,7 +3,8 @@
 Clojure library for estimating text's time to read. Inspired by time to read feature on [Medium](http://medium.com).
 
 [![Build Status](https://travis-ci.org/hashobject/time-to-read.svg)](https://travis-ci.org/hashobject/time-to-read)
-[![Dependencies Status](http://jarkeeper.com/hashobject/time-to-read/status.svg)](http://jarkeeper.com/hashobject/time-to-read)
+[![Dependencies Status](https://jarkeeper.com/hashobject/time-to-read/status.svg)](https://jarkeeper.com/hashobject/time-to-read)
+[![Downloads](https://jarkeeper.com/hashobject/time-to-read/downloads.svg)](https://jarkeeper.com/hashobject/time-to-read)
 
 
 Calculation is done in very simple way:
